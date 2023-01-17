@@ -1,0 +1,13 @@
+.custom-modal {
+  z-index: 11;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+}

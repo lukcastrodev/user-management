@@ -1,0 +1,33 @@
+<div class="card" >
+  <h5 class="card-header">Detalhes</h5>
+  <div class="card-body" *ngIf="user; else elseBlock">
+    <ul class="list-unstyled">
+      <li>
+        <p>
+          <strong>Identificador: </strong> {{user.id}}
+        </p>
+      </li>
+      <li>
+        <p>
+          <strong>Nome: </strong> {{user.nome}}
+        </p>
+      </li>
+      <li>
+        <p>
+          <strong>E-mail: </strong> {{user.email}}
+        </p>
+      </li>
+    </ul>
+  </div>
+  <ng-template #elseBlock>
+    <div class="card-body">
+      <ul class="list-unstyled">
+        <li>
+          <p>
+            Clique no botão visualizar das ações para acesso detalhado dos dados do usuário.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,31 @@
+<div class="card">
+  <h5 class="card-header">Cadastro</h5>
+  <div class="card-body">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <div class="row mb-3">
+        <div class="col">
+          <label for="firstnameInput" class="form-label">Nome</label>
+          <input type="text" name="firstname" id="firstnameInput" class="form-control" formControlName="nome">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="lastnameInput" class="form-label">Sobrenome</label>
+          <input type="text" name="lastname" id="lastnameInput" class="form-control" formControlName="sobrenome">
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col">
+          <label for="emailInput" class="form-label">E-mail</label>
+          <input type="email" name="email" id="emailInput" class="form-control" formControlName="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-end">
+          <button type="submit" class="btn btn-primary btn-lg">Cadastrar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
