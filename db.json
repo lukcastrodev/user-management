@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "97b8726c-7843-4401-8f20-c07ff3b1fa34",
+      "nome": "Hanzo",
+      "sobrenome": "Hasashi",
+      "email": "hanzo.hasashi@mk.com"
+    },
+    {
+      "id": "97b8726c-7843-4401-8f20-c07ff3b1fa35",
+      "nome": "Liu",
+      "sobrenome": "Kang",
+      "email": "liu.kang@mk.com"
+    },
+    {
+      "id": "97b8726c-7843-4401-8f20-c07ff3b1fa36",
+      "nome": "Kuai",
+      "sobrenome": "Liang",
+      "email": "kuai.liang@mk.com"
+    }
+  ]
+}
